@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+@media (min-width: 375px)  {
+  
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'manrope';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+#divider2 {
+  opacity:0;
+}
+.container {
+  text-align: center;
+  width: 28em;
+  margin: 100px auto;
+  background-color: #2a2a2a;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.container .head {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container .quote  {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.dice {
+  display: block;
+  height: 3em;
+  margin: auto;
+   width: 3em;
+  padding: auto;
+  background-color: #4CAF50;
+  margin-top: -7.6em;
+  color: white;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  
+}
+.dic {
+  display: block;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #54f259;
+
+}
+}
+
+
+@media (max-width: 375px)  {
+  body {
+    background-color: #222;
+    color: #fff;
+    font-family: 'manrope';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+  }
+  main{
+    margin-right: auto;  }
+  #divider1 {
+    opacity:0;
+  }
+.container {
+  text-align: center;
+  width: 18em;
+  margin: auto;
+  background-color: #2a2a2a;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.container .head {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container .quote  {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  flex-wrap: wrap;
+}
+
+.dice {
+  display: block;
+  height: 3em;
+  margin: auto;
+  width: 3em;
+  padding: auto;
+  background-color: #044310;
+  margin-top: -1.4em;
+  color: white;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  
+}
+.dic {
+  display: block;
+  margin: auto;
+}
+
+
+  button:hover {
+    background-color: #54f259;
+  
+  }
+}
